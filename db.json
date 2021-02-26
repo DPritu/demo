@@ -1,14 +1,53 @@
 {
-  "posts": [
-    { "id": 1, "title": "Test 1" },
-    { "id": 2, "title": "Test 2" },
-    { "id": 3, "title": "Test 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "dummyUserData": [
+        {
+            "email": "test@mail.com",
+            "pipeline": "Pipeline 1",
+            "stage": "Pipeline 1 - Stage 1"
+        }
+    ],
+    "dummyPipedriveData": [
+        {
+            "pipeline": "Pipeline 1",
+            "stages": [
+                {
+                    "stage_name": "Pipeline 1 - Stage 1"
+                },
+                {
+                    "stage_name": "Pipeline 1 - Stage 2"
+                },
+                {
+                    "stage_name": "Pipeline 1 - Stage 3"
+                }
+            ]
+        },
+        {
+            "pipeline": "Pipeline 2",
+            "stages": [
+                {
+                    "stage_name": "Pipeline 2 - Stage 1"
+                },
+                {
+                    "stage_name": "Pipeline 2 - Stage 2"
+                },
+                {
+                    "stage_name": "Pipeline 2 - Stage 3"
+                }
+            ]
+        },
+        {
+            "pipeline": "Pipeline 3",
+            "stages": [
+                {
+                    "stage_name": "Pipeline 3 - Stage 1"
+                },
+                {
+                    "stage_name": "Pipeline 3 - Stage 2"
+                },
+                {
+                    "stage_name": "Pipeline 3 - Stage 3"
+                }
+            ]
+        }
+    ]
 }
