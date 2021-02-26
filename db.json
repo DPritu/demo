@@ -1,53 +1,35 @@
 {
-    "dummyUserData": [
-        {
-            "email": "test@mail.com",
-            "pipeline": "Pipeline 2",
-            "stage": "Pipeline 2 - Stage 3"
-        }
-    ],
-    "dummyPipedriveData": [
-        {
-            "pipeline": "Pipeline 1",
-            "stages": [
-                {
-                    "stage_name": "Pipeline 1 - Stage 1"
-                },
-                {
-                    "stage_name": "Pipeline 1 - Stage 2"
-                },
-                {
-                    "stage_name": "Pipeline 1 - Stage 3"
-                }
-            ]
-        },
-        {
-            "pipeline": "Pipeline 2",
-            "stages": [
-                {
-                    "stage_name": "Pipeline 2 - Stage 1"
-                },
-                {
-                    "stage_name": "Pipeline 2 - Stage 2"
-                },
-                {
-                    "stage_name": "Pipeline 2 - Stage 3"
-                }
-            ]
-        },
-        {
-            "pipeline": "Pipeline 3",
-            "stages": [
-                {
-                    "stage_name": "Pipeline 3 - Stage 1"
-                },
-                {
-                    "stage_name": "Pipeline 3 - Stage 2"
-                },
-                {
-                    "stage_name": "Pipeline 3 - Stage 3"
-                }
-            ]
-        }
-    ]
+   "dummyUserData": [
+      {
+         "email": "test@mail.com",
+         "pipeline": "Pipeline 2",
+         "stage": "Pipeline 2 - Stage 3"
+      }
+   ],
+   "dummyPipedriveData": [
+      {
+         "pipeline": "Pipeline 1",
+         "stages": [
+            "Pipeline 1 - Stage 1",
+            "Pipeline 1 - Stage 2",
+            "Pipeline 1 - Stage 3"
+         ]
+      },
+      {
+         "pipeline": "Pipeline 1",
+         "stages": [
+            "Pipeline 1 - Stage 1",
+            "Pipeline 1 - Stage 2",
+            "Pipeline 1 - Stage 3"
+         ]
+      },
+      {
+         "pipeline": "Pipeline 1",
+         "stages": [
+            "Pipeline 1 - Stage 1",
+            "Pipeline 1 - Stage 2",
+            "Pipeline 1 - Stage 3"
+         ]
+      }
+   ]
 }
