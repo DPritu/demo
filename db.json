@@ -16,19 +16,19 @@
          ]
       },
       {
-         "pipeline": "Pipeline 1",
+         "pipeline": "Pipeline 2",
          "stages": [
-            "Pipeline 1 - Stage 1",
-            "Pipeline 1 - Stage 2",
-            "Pipeline 1 - Stage 3"
+            "Pipeline 2 - Stage 1",
+            "Pipeline 2 - Stage 2",
+            "Pipeline 2 - Stage 3"
          ]
       },
       {
-         "pipeline": "Pipeline 1",
+         "pipeline": "Pipeline 3",
          "stages": [
-            "Pipeline 1 - Stage 1",
-            "Pipeline 1 - Stage 2",
-            "Pipeline 1 - Stage 3"
+            "Pipeline 3 - Stage 1",
+            "Pipeline 3 - Stage 2",
+            "Pipeline 3 - Stage 3"
          ]
       }
    ]
