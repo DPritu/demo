@@ -2,8 +2,8 @@
     "dummyUserData": [
         {
             "email": "test@mail.com",
-            "pipeline": "Pipeline 1",
-            "stage": "Pipeline 1 - Stage 1"
+            "pipeline": "Pipeline 2",
+            "stage": "Pipeline 2 - Stage 3"
         }
     ],
     "dummyPipedriveData": [
