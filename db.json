@@ -1,35 +1,76 @@
 {
-   "dummyUserData": [
-      {
-         "email": "test@mail.com",
-         "pipeline": "Pipeline 2",
-         "stage": "Pipeline 2 - Stage 3"
-      }
-   ],
-   "dummyPipedriveData": [
-      {
-         "pipeline": "Pipeline 1",
-         "stages": [
-            "Pipeline 1 - Stage 1",
-            "Pipeline 1 - Stage 2",
-            "Pipeline 1 - Stage 3"
-         ]
-      },
-      {
-         "pipeline": "Pipeline 2",
-         "stages": [
-            "Pipeline 2 - Stage 1",
-            "Pipeline 2 - Stage 2",
-            "Pipeline 2 - Stage 3"
-         ]
-      },
-      {
-         "pipeline": "Pipeline 3",
-         "stages": [
-            "Pipeline 3 - Stage 1",
-            "Pipeline 3 - Stage 2",
-            "Pipeline 3 - Stage 3"
-         ]
-      }
-   ]
+    "dummyUserData": [
+        {
+            "email": "test@mail.com",
+            "pipeline": [
+                {
+                    "name": "Pipeline 2",
+                    "id": 2
+                }
+            ],
+            "stage": [
+                {
+                    "name": "Pipeline 2 - Stage 3",
+                    "id": 3
+                }
+            ],
+            "user_id": 1
+        }
+    ],
+    "dummyPipedriveData": [
+        {
+            "name": "Pipeline 1",
+            "stages": [
+                {
+                    "name": "Pipeline 1 - Stage 1",
+                    "id": 1
+                },
+                {
+                    "name": "Pipeline 1 - Stage 2",
+                    "id": 2
+                },
+                {
+                    "name": "Pipeline 1 - Stage 3",
+                    "id": 3
+                }
+            ],
+            "id": 1
+        },
+        {
+            "name": "Pipeline 2",
+            "stages": [
+                {
+                    "name": "Pipeline 2 - Stage 1",
+                    "id": 1
+                },
+                {
+                    "name": "Pipeline 2 - Stage 2",
+                    "id": 2
+                },
+                {
+                    "name": "Pipeline 2 - Stage 3",
+                    "id": 3
+                }
+            ],
+            "id": 2
+        },
+        {
+            "name": "Pipeline 3",
+            "stages": [
+                {
+                    "name": "Pipeline 3 - Stage 1",
+                    "id": 1
+                },
+                {
+                    "name": "Pipeline 3 - Stage 2",
+                    "id": 2
+                },
+                {
+                    "name": "Pipeline 3 - Stage 3",
+                    "id": 3
+                }
+            ],
+            "id": 3
+        }
+    ]
 }
